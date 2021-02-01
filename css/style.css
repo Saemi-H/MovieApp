@@ -1,0 +1,124 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    font-size: 10px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    padding: 1.5rem;
+    
+}
+#poster{
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.posterbg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    padding: 1rem;
+}
+header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+.search, .navbar{
+    width: 18px;
+    height: 18px;
+}
+.search{
+    margin-right: 1rem
+}
+.fas{
+    color: #fff;
+   font-size: 1.8rem;
+   cursor: pointer;
+}
+.title{
+    font-size: 2.5rem;
+    line-height: 120%;
+    font-weight: bold;
+    color: #fff;
+    width:90vw;
+    height: 10vh;
+}
+.overview{
+    font-size: 1.6rem;
+    color: #fff;
+    width: 90vw;
+    height: 20vh;
+    font-style: italic;
+}
+.homepage{
+    width:105px;
+    height: 30px;
+    background-color: #e06de8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.homepage:hover{
+    background-color: #f3ec11;
+    color: #111111;
+}
+.more{
+    width: 200px;
+    height: 20px;
+    border:none;
+    background-color:transparent;
+    position: absolute;
+    left:1rem;
+    bottom: 45%;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+.more:hover{
+    color: #f3ec11;
+}
+.pic{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+.piclist{
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    top: 20px;
+    left:50%;
+    margin-left:-75px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.detail{
+    color: #fff;
+    font-size: 2rem;
+    line-height: 120%;
+    position: absolute;
+    bottom: 50px;
+    left: 1rem;
+    text-align: center;
+}
+.tit{
+    display: inline-block;
+    width: 30vw;
+}
+.info{
+    display: inline-block;
+    width: 50vw;
+}
