@@ -14,7 +14,7 @@ function movieApp(){
     const homepageBtn=document.querySelector('.homepage');
     const moreBtn=document.querySelector('.more');
 
-     let api='https://api.themoviedb.org/3/movie/550?api_key=b5422b27bfd316c6209a3a4877d32acd';
+     let api='https://api.themoviedb.org/3/movie/550?api_key=api_key';
      
     fetch(api)
         .then(response=>{
